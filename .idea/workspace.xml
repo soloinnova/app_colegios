@@ -1,9 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1369a913-99cc-4d2e-a53c-2aa121865ecf" name="Default" comment="" />
+    <list default="true" id="1369a913-99cc-4d2e-a53c-2aa121865ecf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/action-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/action-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/alert-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/alert-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/audio-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/audio-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/back-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/back-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bars-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bars-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bullets-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bullets-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/calendar-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/calendar-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/camera-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/camera-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-d-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-d-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-u-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-u-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/check-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/check-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/clock-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/clock-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/cloud-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/cloud-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/comment-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/comment-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/delete-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/delete-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/edit-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/edit-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/eye-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/eye-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forbidden-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forbidden-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forward-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forward-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/gear-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/gear-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/grid-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/grid-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/heart-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/heart-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/home-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/home-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/info-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/info-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/location-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/location-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/lock-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/lock-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/mail-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/mail-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/minus-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/minus-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/navigation-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/navigation-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/phone-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/phone-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/plus-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/plus-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/power-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/power-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/recycle-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/recycle-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/refresh-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/refresh-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/search-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/search-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/shop-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/shop-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/star-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/star-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/tag-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/tag-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/user-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/user-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/video-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/images/icons-png/video-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/colegios_app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/colegios_app.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/costum-css-app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/jquery.mobile.icons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/jquery.mobile.structure-1.4.5.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-2.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery.mobile-1.4.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/sign_up.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/signup.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/logo.png" afterPath="$PROJECT_DIR$/www/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
+    </list>
     <ignored path="app_colegios.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +138,101 @@
   <component name="FavoritesManager">
     <favorites_list name="app_colegios" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9125214">
+              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.076923">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_up.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/sign_up.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8301888">
+              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="costum-css-app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/costum-css-app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.115385">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/css/jquery.mobile.structure-1.4.5.min.css" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/sign_up.js" />
+        <option value="$PROJECT_DIR$/www/css/costum-css-app.css" />
+        <option value="$PROJECT_DIR$/www/signup.html" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -59,8 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -79,14 +284,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_colegios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_colegios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_colegios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_colegios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_colegios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_colegios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pg_app_ofertas" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\app_colegios\www\js" />
+      <recent name="C:\wamp\www\app_colegios\www" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1369a913-99cc-4d2e-a53c-2aa121865ecf" name="Default" comment="" />
@@ -97,33 +394,153 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/costum-css-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/colegios_app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.827957">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/jquery.mobile.structure-1.4.5.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37400#37489#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app_ofertas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15260324">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8301888">
+          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/costum-css-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.115385">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/sign_up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.076923">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9125214">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

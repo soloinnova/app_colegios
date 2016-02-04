@@ -20,27 +20,292 @@
     under the License.
 -->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" href="css/colegios_app.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/costum-css-app.css">
+
+    <title>App School</title>
+</head>
+<body>
+<div data-role="page" id="home">
+
+    <div data-role="header" data-theme="b">
+        <h1>App School</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" id="content-home">
+        <div id="logo_image">
+            <img src="img/logo.png" alt="Image Header">
+        </div>
+
+                <a href="#popuplogin"
+                   data-rel="popup"
+                   data-role="button"
+                   data-position-to="window"
+                   data-icon="check"
+                   data-iconpos="top"
+                   data-transition="pop">
+                    Iniciar Sesión</a>
+
+
+
+
+
+
+        <div data-role="popup" id="popuplogin" class="ui-btn-corner-all">
+            <form>
+                <div style="padding:10px 20px;">
+                    <h3>Por favor Inicie Session</h3>
+                    <label for="un" class="ui-hidden-accesible">Username:</label>
+                    <input type="text" name="user" id="un" value="" placeholder="username">
+                    <label for="pw" class="ui-hidden-accesible">Password:</label>
+                    <input type="text" name="user" id="pw" value="" placeholder="username">
+                    <button type="submit"
+                            class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">Iniciar
+                        sesión
+                    </button>
+                    <a href="signup.html" data-role="button" class="ui-btn ui-corner-all">Crear usuario</a>
+
+                </div>
+            </form>
+        </div>
+
+
+    </div><!-- /content -->
+
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#home" data-icon="home" data-transition="flow">Inicio</a></li>
+                <li><a href="#actividades" data-icon="calendar" data-transition="flow">Calendario</a></li>
+                <li><a href="#" data-icon="info">Circulares</a></li>
+                <li><a href="#" data-icon="check">Asistencia</a></li>
+            </ul>
+        </div>
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="actividades">
+
+    <div data-role="header" data-theme="b">
+        <h1>Actividades</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" id="content-cal">
+        <ul data-role="listview">
+            <li><a href="#actividades-actividades">Actividades <span class="ui-li-count">3</span></a></li>
+            <li><a href="#actividades-reuniones">Reuniones <span class="ui-li-count">5</span></a></li>
+            <li><a href="#actividades-asuetos">Asuetos <span class="ui-li-count">6</span></a></li>
+            <li><a href="#actividades-deportivos">Calendario deportivo <span class="ui-li-count">2</span></a></li>
+        </ul>
+
+
+
+    </div><!-- /content -->
+
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#home" data-icon="home" data-transition="flow">Inicio</a></li>
+                <li><a href="#actividades" data-icon="calendar" data-transition="flow">Calendario</a></li>
+                <li><a href="#" data-icon="info">Circulares</a></li>
+                <li><a href="#" data-icon="check">Asistencia</a></li>
+            </ul>
+        </div>
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!--Paginas actividades-->
+<div data-role="page" id="actividades-actividades">
+
+    <div data-role="header" data-theme="b">
+        <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Atras</a>
+        <h1>Actividades</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" id="content-actividades-actividades">
+        <div class="ui-corner-all custom-corners">
+            <div class="ui-bar ui-bar-a">
+                <h3>Actividades</h3>
+            </div>
+            <div class="ui-body ui-body-a">
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible">
+                        <h3>Section 1</h3>
+                        <p>I´m the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 2</h3>
+                        <p>I´m the collapsible content for section 2</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 3</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+
+    </div><!-- /content -->
+
+    <div data-role="footer">
+
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+
+<div data-role="page" id="actividades-reuniones">
+
+    <div data-role="header" data-theme="b">
+        <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Atras</a>
+        <h1>Actividades</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" id="content-actividades-reuniones">
+        <div class="ui-corner-all custom-corners">
+            <div class="ui-bar ui-bar-a">
+                <h3>Actividades</h3>
+            </div>
+            <div class="ui-body ui-body-a">
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible">
+                        <h3>Section 1</h3>
+                        <p>I´m the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 2</h3>
+                        <p>I´m the collapsible content for section 2</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 3</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 4</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 5</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /content -->
+
+    <div data-role="footer">
+
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="actividades-deportivos">
+
+    <div data-role="header" data-theme="b">
+        <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Atras</a>
+        <h1>Actividades</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" id="content-actividades-deportivos">
+        <div class="ui-corner-all custom-corners">
+            <div class="ui-bar ui-bar-a">
+                <h3>Actividades</h3>
+            </div>
+            <div class="ui-body ui-body-a">
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible">
+                        <h3>Section 1</h3>
+                        <p>I´m the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 2</h3>
+                        <p>I´m the collapsible content for section 2</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /content -->
+
+    <div data-role="footer">
+
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+<div data-role="page" id="actividades-asuetos">
+
+    <div data-role="header" data-theme="b">
+        <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Atras</a>
+        <h1>Actividades</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" id="content-actividades-asuetos">
+        <div class="ui-corner-all custom-corners">
+            <div class="ui-bar ui-bar-a">
+                <h3>Actividades</h3>
+            </div>
+            <div class="ui-body ui-body-a">
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible">
+                        <h3>Section 1</h3>
+                        <p>I´m the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 2</h3>
+                        <p>I´m the collapsible content for section 2</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 3</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 4</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 5</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 6</h3>
+                        <p>I´m the collapsible content for section 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /content -->
+
+    <div data-role="footer">
+
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+<!--Fin Paginas actividades-->
+
+
+
+<!--<script src="js/jquery-2.2.0.min.js"></script>-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    app.initialize();
+</script>
+</body>
 </html>

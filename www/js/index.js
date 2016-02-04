@@ -16,6 +16,66 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+function cambiarTexto(){
+    $("#phongapTest").html('reacciona a clicks que llama funciones dentro de la pagina');
+
+    // navigator.notification.beep(2);
+   // navigator.vibrate(3000);
+}
+
+$( document ).on( "pageinit", "#usersignup", function( event ) {
+    $("#phongapTest").html('jQuery is running on phone gap');
+    $("#textchange").click(function(){
+        cambiarTexto();
+    });
+
+
+    $("#signup").click(function(){
+        var fullname=$("#fullname").val();
+        var email=$("#email").val();
+        var password=$("#password").val();
+        console.log(fullname + email + password);
+
+
+        var dataString="fullname="+fullname+"&email="+email+"&password="+password+"&signup=";
+        if($.trim(fullname).length>0 & $.trim(email).length>0 & $.trim(password).length>0)
+        {
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: dataString,
+                crossDomain: true,
+                cache: false,
+                beforeSend: function(){ $("#signup").val('Connecting...');},
+                success: function(data){
+                    if(data=="success")
+                    {
+         $("#phongapTest").html("Thank you for Registering with us! you can login now");
+                    }
+                    else if(data="exist")
+                    {
+         $("#phongapTest").html("Hey! You alreay has account! you can login with us");
+                    }
+                    else if(data="failed")
+                    {
+         $("#phongapTest").html("Something Went wrong");
+                    }
+                }
+            });
+        }return false;
+    });
+
+
+
+
+
+
+    //navigator.notification.beep(2);
+    //navigator.vibrate(3000);
+});
+
+
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -34,16 +94,11 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
     }
 };

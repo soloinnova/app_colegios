@@ -32,35 +32,30 @@
     <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
     <link rel="stylesheet" href="css/costum-css-app.css">
 
-    <title>App School</title>
+    <title>Login</title>
 </head>
 <body>
-<div data-role="page" id="usersignup">
+<div data-role="page" id="userlogin">
 
     <div data-role="header" data-theme="b">
-        <h1>Crear usuario</h1>
+        <h1>Iniciar session</h1>
     </div><!-- /header -->
 
-    <div data-role="content" id="content-home">
-        <div id="logo_image">
-            <img src="img/logo.png" alt="Image Header">
-        </div>
-
+    <div data-role="content" id="content-login">
         <form>
             <div style="padding:10px 20px;">
                 <p id="phongapTest">--</p>
                 <h3>Por favor Inicie Session</h3>
-                <label for="fullname" class="ui-hidden-accesible">Nombre completo:</label>
-                <input id="fullname" type="text" />
+
                 <label for="email" class="ui-hidden-accesible">Email:</label>
-                <input id="email" type="email" />
+                <input id="email" type="email" placeholder="email@domain.com" />
                 <label for="password" class="ui-hidden-accesible">Password:</label>
                 <input id="password" type="password" placeholder="password" />
 
-                <a href="#" id="signup" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">
-                    Crear cuenta
+                <a href="#" id="login" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">
+                    inicar sessión
                 </a>
-                <a href="#" id="textchange" class="ui-btn ui-corner-all ui-shadow">cambiar texto</a>
+
             </div>
         </form>
 

@@ -33,66 +33,44 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-       // $("#jstst").html('dispositivo listo js correindo');
         var push = PushNotification.init({
-            android: {
-                senderID: "313938936203"
+            "android": {
+                "senderID": "313938936203"
             },
-            ios: {
-                alert: "true",
-                badge: true,
-                sound: 'false'
-            },
-            windows: {}
+            "ios": {"alert": "true", "badge": "true", "sound": "true"},
+            "windows": {}
         });
 
-        push.unregister(function() {
-            $("#jstst").html('success');
-        }, function() {
-            $("#jstst").html('error');
-        });
-
-        push.hasPermission(function(data) {
-            if (data.isEnabled) {
-                $("#jstst").html('isEnabled');
-            }
-        });
-
-        
         push.on('registration', function(data) {
             console.log("registration event");
-            $("#jstst").html('el js esta vinculado y corriendo');
             document.getElementById("regId").innerHTML = data.registrationId;
             console.log(JSON.stringify(data));
         });
 
         push.on('notification', function(data) {
-        	console.log("notification event");
+            console.log("notification event");
             console.log(JSON.stringify(data));
             var cards = document.getElementById("cards");
             var card = '<div class="row">' +
-		  		  '<div class="col s12 m6">' +
-				  '  <div class="card darken-1">' +
-				  '    <div class="card-content black-text">' +
-				  '      <span class="card-title black-text">' + data.title + '</span>' +
-				  '      <p>' + data.message + '</p>' +
-				  '    </div>' +
-				  '  </div>' +
-				  ' </div>' +
-				  '</div>';
+                '<div class="col s12 m6">' +
+                '  <div class="card darken-1">' +
+                '    <div class="card-content black-text">' +
+                '      <span class="card-title black-text">' + data.title + '</span>' +
+                '      <p>' + data.message + '</p>' +
+                '    </div>' +
+                '  </div>' +
+                ' </div>' +
+                '</div>';
             cards.innerHTML += card;
-            
+
             push.finish(function () {
                 console.log('finish successfully called');
             });
         });
 
         push.on('error', function(e) {
-            $("#jstst").html('error');
             console.log("push error");
         });
-
-        $("#jstst").append('pasamos todo el codigo y nada');
     }
 };
 

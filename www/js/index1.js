@@ -213,7 +213,7 @@ $(document).on("pageinit", "#userlogin", function (event) {
         var email = $("#email").val();
         var password = $("#password").val();
         //var url = "http://192.168.1.9/app_colegios_parse/login.php";// ip casa
-        var url = "http://192.168.0.107/app_colegios_parse/login.php";// ip edificio nert 2
+        var url = "http://soloinnova.net/app_colegios_parse/login.php";// ip edificio nert 2
         //console.log(fullname + email + password);
         //navigator.notification.beep(1);
         $.ajax({
@@ -222,7 +222,7 @@ $(document).on("pageinit", "#userlogin", function (event) {
                 data: {email: email, password: password}
             })
             .done(function (data) {
-                // $("#phongapTest").html(data);
+                 //$("#phongapTest").html(data);
                 if (data == "login") {
                     /*$("#phongapTest").html(data);
                      navigator.notification.alert(
@@ -262,7 +262,7 @@ $(document).on("pageinit", "#usersignup", function (event) {
         var fullname = $("#fullname").val();
         var email = $("#email").val();
         var password = $("#password").val();
-        var url = "http://192.168.0.107/app_colegios_parse/signup.php";
+        var url = "http://soloinnova.net/app_colegios_parse/signup.php";
         //console.log(fullname + email + password);
         //navigator.notification.beep(1);
         $.ajax({

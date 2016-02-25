@@ -204,6 +204,40 @@ $(document).on("pageinit", "#notifications", function (event) {
     }
 });
 
+$(document).on("pageinit", "#tareas", function (event) {
+    $("#phongapTest").html('jQuery is running on phone gap');
+    var content;
+    var url;
+    content  = '<ul data-role="listview">';
+    content +='<li>';
+    content +='<a href="#actividades-actividades">';
+    content +='Actividades ';
+    content +='<span class="ui-li-count">3</span>';
+    content +='</a>';
+    content +='</li>';
+    content +='</ul>';
+
+    //$("#content-tareas").html(content);
+
+    url = 'http://soloinnova.net/app_colegios_parse/controller/populateTareas.php';
+
+    $.ajax({
+            method: "POST",
+            url: url,
+            data: {email: '', password: ''}
+        })
+        .done(function (data) {
+            console.log(data);
+            $("#tareasList").html(data);
+            $( "#tareasList" ).listview( "refresh" );
+            $( "#tareasList" ).trigger( "updatelayout");
+sd
+        });
+
+
+});
+
+
 
 $(document).on("pageinit", "#userlogin", function (event) {
     $("#phongapTest").html('jQuery is running on phone gap');
